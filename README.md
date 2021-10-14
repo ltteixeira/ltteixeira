@@ -36,8 +36,8 @@ Person person = new Person
     name = "Luciano Teixeira",
     age = DateTime.Now.Year - 1992,
     idioms = {"Portuguese", "English"},
-    undergraduated = new UnderGraduate { name = "Bachelor of Science in Computer Science", institution = "EEP" },  
-    graduate = new Graduate { name = "Database Administration and Engineering", institution = "UNICAMP" },
+    undergraduatedcourse = new UnderGraduate { name = "Bachelor of Science in Computer Science", institution = "EEP" },  
+    graduatecourse = new Graduate { name = "Database Administration and Engineering", institution = "UNICAMP" },
     work = new List<Company> 
     { 
         new Company { name = "CodeStock", act = "Founder",              applications = new List<Applications>() },
